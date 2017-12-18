@@ -2,12 +2,13 @@
     SKRIV OG LES FRA FIL
     Kun string eller binærfiler
 """
+
 # Skriver til fil
 
 file = open('filbehandling.txt','w')
 
 file.write('hello World Linje 1\n')
-file.write('hello World linje 2\n')
+file.writelines('hello World linje 2')
 file.write('hello World linje 3\n')
 file.write('hello World linje 4\n')
 
@@ -34,7 +35,7 @@ print(file.readlines())
 
 file = open('filbehandling.txt','r')    # skriver ut linje for linje
 for line in file:
-    print(line)
+    print(line, end='')
 
 
 # Skriv til fil
@@ -47,5 +48,3 @@ file = open('filbehandling.txt','r')    # Skiver ut hele innholdet
 print(file.read())
 
 file.close()
-
-

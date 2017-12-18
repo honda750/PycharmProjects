@@ -1,7 +1,7 @@
 """
     TELEFONLISTE 1
     Navn og nummer lagres som 'dictionares' i *.json fil
-    Meny styrt med feil sjekk.
+    Menystyrt med feil sjekk.
 """
 import json
 import os

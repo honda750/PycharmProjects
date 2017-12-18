@@ -40,6 +40,7 @@ def overskrivData(fil):
     skrivFil(nyttInnhold, fil)
 
 filNavn= 'filbehandling.txt'
+print(f'Filen det leses og skrives mot er {filNavn}')
 meny = 's = skriv ut innhold   l = legge til data   o = overskriv innhold   x = avslutt program   t = Liste '
 print('\n>>>   FILBEHANDLING   <<<\n')
 print(meny)
