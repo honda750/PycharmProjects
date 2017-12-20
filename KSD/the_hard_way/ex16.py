@@ -43,3 +43,4 @@ for data in filInnhold:                         # Tilordner innhold i fil til va
 print('\nTil slutt lukker vi filen')
 target.close()
 
+print('adjø')

@@ -64,7 +64,7 @@ def sjekkNavn(innNavn, liste):                              # Sjekker om navn er
         if (navn == innNavn):
             return True
 
-filNavn = 'telefonliste1.json'
+filNavn = 'telefonListe.json'
 telefonListe = lesFil(filNavn)                      # Leser fil og tilordner innhold til variabel
 meny = '\nn = ny person   e = endre nummer   s = slett person   x = avslutt program '
 svar = 1

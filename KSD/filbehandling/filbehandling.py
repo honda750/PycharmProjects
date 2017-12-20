@@ -32,7 +32,7 @@ def printFil(fil):                                # Skriver ut innhold i fil
 
 def leggTilData(fil):
     leggTil = input('Skriv inn tillegg i fil: ')
-    print(leggTil)
+    #print(leggTil)
     leggTilFil(leggTil, fil)
 
 def overskrivData(fil):
@@ -57,5 +57,6 @@ while (svar != 'x'):
     elif (svar == 'x'):                             # Avslutter program
         print('\n>>>   Takk for nå   <<<')
         quit()
+    print(meny)
     svar = input('>>> ')
 
