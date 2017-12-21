@@ -142,6 +142,7 @@ def overskrivData(fil):
 
 # Skriv og les (dump og load) json fil) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
 import json
 
 def skrivFilJson(filInnhold, fil):          # Skrive til en fil (fra start, sletter gammelt innhold)
@@ -155,6 +156,20 @@ def lesFilJson(fil):                        # Lese en fil
         filInnhold = json.load(jsonFil)     # Leser data på json format fra fil som tilordnes variabel
     return filInnhold
 
+"""
+import csv
+
+def skrivFilCsv(filInnhold, fil):          # Skrive til en fil (fra start, sletter gammelt innhold)
+    sjekkFil(fil)                          # Sjekker om fil finns?
+    with open(fil, 'w') as cscFil:
+        csv.DictWriter(filInnhold, csvFil) # Skriver data til fil på csv format
+
+def lesFilCsv(fil):                        # Lese en fil
+    sjekkFil(fil)                          # Sjekker om fil finns?
+    with open(fil) as csvFil:
+        filInnhold = csv.Dictreader(csvFil)     # Leser data på csv format fra fil som tilordnes variabel
+    return filInnhold
+"""
 # Navn og data behandles som 'dictionares' i *.json fil >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 def printListe(fil):                                    # Skriver ut innhold i fil
