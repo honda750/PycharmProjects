@@ -19,7 +19,7 @@ while (svar != 'x'):
     print(meny)
     svar = input('>>> ')
 
-print('>>>   Takk for nå   <<<')
+print('>>>   Takk for nå   <<< ')
 quit()
 
 
