@@ -15,7 +15,7 @@ while (svar != 'x'):
         endreData(filNavn)
 
     print('\t Navn\t\t\t\t Email\n')
-    printListe(filNavn)                           # Skriver innhold i fil
+    printListe(filNavn)                             # Skriver innhold i fil
     print(meny)
     svar = input('>>> ')
 

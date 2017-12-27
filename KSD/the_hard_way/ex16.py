@@ -1,6 +1,6 @@
 """
     ex16
-    Reading and writing files
+    Reading and writing files.
 """
 #from sys import argv       #   tar filnavn som argument ved oppstart av prog (ex16 filnavn.txt)
 #script, filename = argv    # script = path og filnavn (mac)

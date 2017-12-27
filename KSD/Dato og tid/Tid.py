@@ -1,5 +1,5 @@
 """
-    Tid og Dato
+    Tid og Dato.
 """
 from datetime import datetime as time
 
